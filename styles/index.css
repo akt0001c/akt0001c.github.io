@@ -1,0 +1,52 @@
+@media all and (min-width:"800px") and (max-width:"1280px"){
+    
+}
+
+.nav-linkabout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 270px;
+    width: 60%;
+    margin:auto;
+    background-color: gray;
+}
+
+
+#photo-tab{
+    grid-area: 1/1/4/2;
+    
+}
+
+#user-detail-name{
+    grid-area: 1/2/2/5;
+    padding:1%;
+}
+#user-detail-name>h1{
+    color:whitesmoke;
+    margin-bottom: 2px;
+
+}
+
+#user-detail-intro{
+    grid-area: 2/2/4/5;
+    padding:1%;
+}
+
+#user-detail-intro>p{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    margin-bottom:5px;
+}
+
+#photo-tab>img{
+    height:95%;
+    width:95%;
+    padding:2%;
+    
+}
+
+#user-detail-intro>div{
+    margin-top:10px;
+}
