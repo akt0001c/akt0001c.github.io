@@ -1,52 +1,151 @@
-@media all and (min-width:"800px") and (max-width:"1280px"){
+body{
+    margin:0;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#side-menu{
+    height: 100%;
+    width: 0%;
+    transition: 1s;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 100px;
+    z-index: 1;
+} 
+
+#side-menu a{
+    padding:9px 9px 9px 35px;
+    font-size:18px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#side-menu a:hover{
+    background-color: white;
+    color:black;
+}
+
+#side-menu> #close-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#side-menu >#close-btn{
+    font-size: 25px;
+}
+
+
+
+
+
+
+@media all and (min-width:481px) and (max-width:760px){
+    #nav-menu{
+         display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: 30px; 
+        align-items: center;
+        justify-content: space-around;
+       
+        
+
+    }
+    
+
+    
+
+    #home{
+        grid-area: 1/1/1/1;
+    }
+    .resume>a{
+        padding:2px;
+    }
+
+   
+    #nav-menu a{
+        font-size: 15px;
+        padding:5px;
+    }
+
+   
+}
+
+
+@media all and (min-width:300px) and (max-width:480px)
+{
+    #nav-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height:30px;
+        width:96%;
+        padding:2%;
+        padding-right:4%;
+
+       
+    }
+    #nav-menu>div{
+        width:20%;
+    }
+    #home{
+        display: none;
+    }
+    #skills{
+        display: none;
+    }
+
+    #projects{
+        display: none;
+    }
+
+    #about{
+        display:none;
+    }
+
+    #contact{
+        display:none;
+    }
+    #nav-menu a{
+        font-size: 20px;
+        padding:5px;
+    }
+    
+  
+
+    #option{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #resume{
+        margin-right: 8%;
+    }
+    
+   
+    
     
 }
 
-.about{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
-    height: 270px;
-    width: 60%;
-    margin:auto;
-    background-color: gray;
-}
 
 
-#photo-tab{
-    grid-area: 1/1/4/2;
-    
-}
 
-#user-detail-name{
-    grid-area: 1/2/2/5;
-    padding:1%;
-}
-#user-detail-name>h1{
-    color:whitesmoke;
-    margin-bottom: 2px;
 
-}
 
-#user-detail-intro{
-    grid-area: 2/2/4/5;
-    padding:1%;
-}
 
-#user-detail-intro>p{
-    color:white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 19px;
-    margin-bottom:5px;
-}
 
-#photo-tab>img{
-    height:95%;
-    width:95%;
-    padding:2%;
-    
-}
 
-#user-detail-intro>div{
-    margin-top:10px;
-}
+
+
+
+
+ 
