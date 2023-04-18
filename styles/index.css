@@ -4,6 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* nav-menu bar start  */
 #side-menu{
     height: 100%;
     width: 0%;
@@ -11,7 +12,7 @@ body{
     position: fixed;
     top:0;
     left:0;
-    background-color: black;
+    background-color:gray;
     overflow-x: hidden;
     padding-top: 100px;
     z-index: 1;
@@ -43,12 +44,70 @@ body{
     font-size: 25px;
 }
 
+/* Nav menu-bar ended */
 
 
 
+/* about section start */
+#main{
+    border: 3px solid gray;
+    box-shadow: 1px 1px 2px 1px gray ;
+    border-radius: 5px;
+    width:65%;
+    margin:auto;
+    margin-top:100px;
+    padding: 5px;
+}
+
+#heading-about-me{
+    text-align: center;
+    width:20%;
+    margin: auto;
+    padding:5px;
+    color:white;
+}
+
+.about{
+    border: 0px solid white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,80px);
+    gap:5px;
+    padding:5px;
+}
+
+.about>div{
+    border: 1px solid gray;
+    border-radius: 4px;
+
+}
+
+.home-img{
+    grid-area:1/1/6/2;
+}
+.home-img>img{
+    width:100%;
+    height: 100%;
+}
+
+#user-detail-name{
+    grid-area: 1/2/2/4;
+}
+
+#user-detail-intro{
+    grid-area: 2/2/5/4;
+}
+
+#resume-section{
+    grid-area: 5/2/6/4;
+}
+
+/* About section ended */
 
 
-@media all and (min-width:481px) and (max-width:760px){
+@media all and (min-width:481px) and (max-width:900px){
+
+    /* This is for nav bar */
     #nav-menu{
          display: grid;
         grid-template-columns: repeat(6,1fr);
@@ -59,9 +118,6 @@ body{
         
 
     }
-    
-
-    
 
     #home{
         grid-area: 1/1/1/1;
@@ -75,13 +131,25 @@ body{
         font-size: 15px;
         padding:5px;
     }
+    /* Nav-bar styling ended */
 
+    /* This is for intro box */
+     
+    #main{
+        width:85%;
+    }
+
+    .home-img{
+        grid-area:2/1/5/2;
+    }
    
 }
 
 
 @media all and (min-width:300px) and (max-width:480px)
 {
+
+    /* nav-menu bar start  */
     #nav-menu{
         display: flex;
         align-items: center;
@@ -132,7 +200,22 @@ body{
     }
     
    
+    /* Nav menu-bar ended */
     
+
+    /* About section started */
+    #main{
+        width:90%;
+    }
+    #heading-about-me{
+        width:45%;
+    }
+
+    .home-img{
+        grid-area:2/1/5/2;
+    }
+
+    /* About section ended */
     
 }
 
