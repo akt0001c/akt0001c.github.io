@@ -1,0 +1,47 @@
+@media all and (min-width:481px) and (max-width:900px){
+
+    /* This is for nav bar */
+    #nav-menu{
+         display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: 30px; 
+        align-items: center;
+        justify-content: space-around;
+       
+        
+
+    }
+
+    #home{
+        grid-area: 1/1/1/1;
+    }
+    .resume>a{
+        padding:2px;
+    }
+
+   
+    #nav-menu a{
+        font-size: 15px;
+        padding:5px;
+    }
+    /* Nav-bar styling ended */
+
+    /* This is for intro box */
+     
+    #main{
+        width:85%;
+    }
+
+    .home-img{
+        grid-area:2/1/5/2;
+    }
+   
+    #user-detail-name{
+        grid-area: 1/1/2/4;
+    }
+    #resume-section{
+        grid-area: 5/1/6/4;
+      
+    }
+    
+}

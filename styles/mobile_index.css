@@ -1,0 +1,86 @@
+@media all and (min-width:300px) and (max-width:480px)
+{
+
+    /* nav-menu bar start  */
+    #nav-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height:30px;
+        width:96%;
+        padding:2%;
+        padding-right:4%;
+
+       
+    }
+    #nav-menu>div{
+        width:20%;
+    }
+    #home{
+        display: none;
+    }
+    #skills{
+        display: none;
+    }
+
+    #projects{
+        display: none;
+    }
+
+    #about{
+        display:none;
+    }
+
+    #contact{
+        display:none;
+    }
+    #nav-menu a{
+        font-size: 20px;
+        padding:5px;
+    }
+    
+  
+
+    #option{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #resume{
+        margin-right: 8%;
+    }
+    
+   
+    /* Nav menu-bar ended */
+    
+
+    /* About section started */
+    #main{
+        width:95%;
+    }
+    #heading-about-me{
+        width:45%;
+    }
+
+    .home-img{
+        grid-area:2/1/5/2;
+    }
+
+    #user-detail-name{
+        grid-area: 1/1/2/4;
+    }
+
+    #resume-section{
+        grid-area: 5/1/6/4;
+      
+    }
+
+    #user-detail-intro{
+        grid-area: 2/2/5/4;
+        
+    }
+
+    /* About section ended */
+    
+}
