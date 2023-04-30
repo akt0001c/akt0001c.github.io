@@ -2,11 +2,14 @@ let downloadbtn= document.querySelectorAll(".resume");
 for(let i=0;i<downloadbtn.length;i++)
 {
     downloadbtn[i].onclick= (event)=>{
+       
         open("https://drive.google.com/file/d/1m76iN3TilPN4damYcp9Y-y8HTtEXSoMO/view?usp=share_link");
           
     
     };
 }
+
+
 
 let opentbtn= document.querySelector("#option");
 let closebtn= document.querySelector("#close-btn");

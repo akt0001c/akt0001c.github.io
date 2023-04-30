@@ -63,7 +63,7 @@
         width:45%;
     }
 
-    .home-img{
+    .home-img-div{
         grid-area:2/1/5/2;
     }
 
@@ -79,6 +79,10 @@
     #user-detail-intro{
         grid-area: 2/2/5/4;
         
+    }
+
+    #heading-about-me{
+        width:80%;
     }
 
     /* About section ended */
