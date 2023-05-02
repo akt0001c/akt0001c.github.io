@@ -1,4 +1,5 @@
 let downloadbtn= document.querySelectorAll(".resume");
+ 
 for(let i=0;i<downloadbtn.length;i++)
 {
     downloadbtn[i].onclick= (event)=>{
