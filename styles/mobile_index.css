@@ -7,9 +7,10 @@
         align-items: center;
         justify-content: space-between;
         height:30px;
-        width:96%;
+        width:95%;
         padding:2%;
         padding-right:4%;
+        margin:auto;
 
        
     }
@@ -57,7 +58,8 @@
 
     /* About section started */
     #main{
-        width:95%;
+        width:90%;
+        margin-right: 10px;
     }
     #heading-about-me{
         width:45%;
