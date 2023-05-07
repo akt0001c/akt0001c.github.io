@@ -10,6 +10,13 @@ let deployORVideoLink=["https://aesthetic-capybara-e0c08f.netlify.app/",
                        "https://drive.google.com/file/d/1L09UbTLdAD9NPXcjDx1MDzVznJne-55u/view?usp=sharing"];
 
 
+let contactIcon= [  "https://github.com/akt0001c",
+                    "https://www.linkedin.com/in/ankit-choubey-09b071239/",
+                    "https://leetcode.com/akt0001c/"    
+];                  
+
+
+
 for(let i=0;i<downloadbtn.length;i++)
 {
     downloadbtn[i].onclick= (event)=>{
@@ -54,7 +61,7 @@ for(let a=0;a<githubBtn.length;a++)
 
  
 
-let locationarr=["#skills-section","#project-section","","#main"];  
+let locationarr=["#skills-section","#project-section","#contact-section","#main"];  
 
 //stop the auto refresh feature of side navaber
 
@@ -67,3 +74,16 @@ for(let i=0;i<sideoptions.length;i++)
         window.location.hash=locationarr[i];
      }
 }
+
+
+let contacticonBtn= document.querySelectorAll(".contact-icon");
+for(let a=0;a<contacticonBtn.length;a++)
+  {
+    contacticonBtn[a].onclick= (e)=>{
+        e.preventDefault();
+        open(contactIcon[a]);
+    };
+  }
+
+
+  

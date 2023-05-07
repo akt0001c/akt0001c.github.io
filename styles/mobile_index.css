@@ -88,5 +88,9 @@
     }
 
     /* About section ended */
+
+    .contact>div:nth-child(1){
+        margin-right: 90px;
+    }
     
 }
