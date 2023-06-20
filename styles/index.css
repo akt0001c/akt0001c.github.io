@@ -71,7 +71,7 @@ body{
     border: 0px solid white;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(5,80px);
+    grid-template-rows: repeat(5,auto);
     gap:5px;
     padding:5px;
 }
@@ -154,7 +154,7 @@ body{
     text-align: center;
 }
 
-#skill-heading{
+#skills-heading{
  text-align: center;
  margin-top:30px;
 }
@@ -230,7 +230,7 @@ body{
 }
 
 .contact>i{
-    margin-right: 30px;
+    text-align: center;
 }
 
 .contact>div:nth-child(2){
