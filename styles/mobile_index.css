@@ -1,4 +1,4 @@
-@media all and (min-width:200px) and (max-width:480px)
+@media all and (min-width:200px) and (max-width:500px)
 {
     body{
         margin:auto;
@@ -14,15 +14,27 @@
         align-items: center;
         justify-content: space-around;
         height:30px;
-        width:90%;
-        padding:20px;
+        width:100%;
+        padding:10px;
        
         margin:auto;
 
        
     }
+
+    
     #nav-menu>div{
-        width: 40%;
+        width: 45%;
+    }
+
+    .projects,.skills{
+        width:100%;
+        
+    }
+
+    #nav-menu>div>a{
+        width:80%;
+        border-radius: 5px;
     }
     #home{
         display: none;
@@ -79,9 +91,7 @@
         width: 100%;
       
     }
-    .about>div{
-        
-    }
+    
     #heading-about-me{
         width:45%;
     }
@@ -118,6 +128,12 @@
 
     .contact>div:nth-child(1){
         margin-right: 90px;
+    }
+
+    .github-stats{
+        width:98%;
+        margin:auto;
+        margin-top:20px;
     }
     
 }
