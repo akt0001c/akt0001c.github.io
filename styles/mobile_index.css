@@ -1,5 +1,11 @@
-@media all and (min-width:300px) and (max-width:480px)
+@media all and (min-width:200px) and (max-width:480px)
 {
+    body{
+        margin:auto;
+    }
+    html{
+        margin:auto;
+    }
 
    
     /* nav-menu bar start  */
@@ -104,6 +110,11 @@
     }
 
     /* About section ended */
+
+    .contact{
+        width:100%;
+        margin:auto;
+    }
 
     .contact>div:nth-child(1){
         margin-right: 90px;

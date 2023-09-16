@@ -1,13 +1,16 @@
 let downloadbtn= document.querySelectorAll(".resume");
 let githubLink= ["https://github.com/akt0001c/fumbling-hand-3558.git",
-                 "https://github.com/akt0001c/reach-wren-1563.git",
                  "https://github.com/akt0001c/brash-profit-9147.git",
-                 "https://github.com/akt0001c/subdued-money-2515.git"];
+                 "https://github.com/akt0001c/subdued-money-2515.git",
+                 "https://github.com/akt0001c/Safar.git",
+                 "https://github.com/akt0001c/LearnHub.git"
+                  ];
 
 let deployORVideoLink=["https://aesthetic-capybara-e0c08f.netlify.app/",
-                       "https://dynamic-dolphin-4e9832.netlify.app/",
                        "https://drive.google.com/file/d/1tWH0XZIBY5bSUa8G6E_m8N9hI-UczItT/view?usp=sharing",
-                       "https://drive.google.com/file/d/1L09UbTLdAD9NPXcjDx1MDzVznJne-55u/view?usp=sharing"];
+                       "https://drive.google.com/file/d/1L09UbTLdAD9NPXcjDx1MDzVznJne-55u/view?usp=sharing",
+                       "https://drive.google.com/drive/folders/18tLLJYfZK_vBnbmLgdkxO2iGyy5c6b8C?usp=sharing",
+                       "https://drive.google.com/drive/folders/1_5PGz7ebAgvmRuUlI-5ziqj9fhfCAgLB?usp=sharing"];
 
 
 let contactIcon= [  "https://github.com/akt0001c",
