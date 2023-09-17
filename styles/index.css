@@ -241,17 +241,21 @@ html{
     margin-bottom: 100px;
 }
 
+.mobile-view{
+    width:100%;
+}
+
 /* Project section ended*/
 
 /*Contact me section*/
 
-.contact{
+#contact-section{
 
     margin-top:30px;
     background-color: grey;
     width:100%;
     display: flex;
-    padding:1%;
+    
     justify-content: space-around;
     flex-wrap: wrap-reverse;
 }

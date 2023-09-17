@@ -64,7 +64,7 @@ for(let a=0;a<githubBtn.length;a++)
 
  
 
-let locationarr=["#skills-section","#project-section","#contact-section","#main"];  
+let locationarr=["#skill-div","#project-section","#contact-section","#main"];  
 
 //stop the auto refresh feature of side navaber
 

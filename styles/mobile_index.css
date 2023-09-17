@@ -1,12 +1,7 @@
 @media all and (min-width:200px) and (max-width:500px)
 {
-    body{
-        margin:auto;
-    }
-    html{
-        margin:auto;
-    }
-
+   
+   
    
     /* nav-menu bar start  */
     #nav-menu{
@@ -29,6 +24,7 @@
 
     .projects,.skills{
         width:100%;
+        margin:auto;
         
     }
 
@@ -121,10 +117,7 @@
 
     /* About section ended */
 
-    .contact{
-        width:100%;
-        margin:auto;
-    }
+    
 
     .contact>div:nth-child(1){
         margin-right: 90px;
@@ -134,6 +127,10 @@
         width:98%;
         margin:auto;
         margin-top:20px;
+    }
+
+    #contact-section{
+        width:500px;
     }
     
 }
