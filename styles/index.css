@@ -256,18 +256,24 @@ html{
     width:100%;
     display: flex;
     
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding:10px;
 }
 
 .contact>i{
     text-align: center;
 }
 
-.contact>div:nth-child(2){
-    padding:1%;
+/* .contact>div:nth-child(2){
+    
 
 }
+.contact>div:nth-child(1){
+    padding:1%;
+    width:70%;
+
+} */
 
 .contact>div:nth-child(2)>form{
     display: flex;

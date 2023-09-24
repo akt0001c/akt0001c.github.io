@@ -78,13 +78,14 @@
 
     /* About section started */
     #main{
-        width:98%;
-      
+        width:99%;
+        margin:auto;
        margin-top:100px;
        height: auto;
     }
     .about{
         width: 100%;
+        margin:auto;
       
     }
     
@@ -119,9 +120,9 @@
 
     
 
-    .contact>div:nth-child(1){
+    /* .contact>div:nth-child(1){
         margin-right: 90px;
-    }
+    } */
 
     .github-stats{
         width:98%;
@@ -131,6 +132,16 @@
 
     #contact-section{
         width:500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .contact>div:nth-child(1){
+        width:300px;
+        margin:auto;
+        margin-bottom: 10px;
     }
     
 }
