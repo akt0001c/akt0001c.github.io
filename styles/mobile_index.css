@@ -78,14 +78,33 @@
 
     /* About section started */
     #main{
-        width:99%;
-        margin:auto;
-       margin-top:100px;
-       height: auto;
+        width:100%;
+        margin: auto;
+        box-shadow: none;
+        margin-top: 100px;
+        padding:5px;
+        border: none;
+        height: 720px;
+        margin-bottom:40px;
+        
+        
+    
+        
     }
+    .about>div{
+        width:100%;
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+    
+    } 
+     
     .about{
         width: 100%;
         margin:auto;
+        display:block;
+        height: 500px;
+        border:none;
       
     }
     
@@ -94,27 +113,37 @@
     }
 
     .home-img-div{
-        grid-area:2/1/5/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+        height:70%;
+    }
+    .home-img-div>img{
+        width:98%;
+        height: 98%;
     }
 
     #user-detail-name{
-        grid-area: 1/1/2/4;
+    
     }
 
     #resume-section{
-        grid-area: 5/1/6/4;
+        
       
     }
 
     #user-detail-intro{
-        grid-area: 2/2/5/4;
+        
         padding: 5px;
         
     }
 
     #heading-about-me{
         width:80%;
-    }
+    } 
+
+   
 
     /* About section ended */
 
